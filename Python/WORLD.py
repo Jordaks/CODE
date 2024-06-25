@@ -1,3 +1,3 @@
-name = "Jordan"
+name = "Jordann"
 
-print(name[-6])
+print(name[3:-1])
