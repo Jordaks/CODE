@@ -1,4 +1,4 @@
-name = "Mark Jordan Javier"
+"""name = "Mark Jordan Javier"
 txt = "I'm learning python"
 text = "I love pizza!"
 
@@ -17,3 +17,21 @@ new_txt = text[:0] + "My favorite is Spaghetti"
 
 print(new_text)
 print(new_txt)
+"""
+
+question = "What is your name?"
+print(question)
+name = input()
+
+print("Hello! " + name)
+
+question = "what is your age?"
+print(question)
+age = input()
+
+question = "Whe're you from?"
+print(question)
+address = input()
+
+
+
