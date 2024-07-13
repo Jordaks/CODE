@@ -34,10 +34,12 @@ print(type(num1)) #num1 is of type str (string, that is)
 
 new_num1 = int(num1)
 new_num2 = int(num2)
+new_num3 = new_num2 + new_num1
 
 print(type(new_num1), type(new_num2))
 
 print(num1 + " + " + num2 + " = " + str(new_num1 + new_num2)) #Better
+print(num1 + " + " + num2 + " = " + str(new_num3))
 
 #if you know you're going to be getting a number, it's best to cast it right away.
 #Lets try it again, but this time let's showcase another type...float! 
