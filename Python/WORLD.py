@@ -34,6 +34,8 @@ print(question)
 address = input()
 
 print("oww nice country!")
+reply = input()
+
 
 
 
