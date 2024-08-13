@@ -27,13 +27,13 @@ print("Hello! " + name)
 
 question = "what is your age?"
 print(question)
-age = input()
+age = int(input())
 
-if int(age) <= 18:
+if age <= 19:
     print("you're teenager")
 else:
     print("you're adult")
-question = "BTW, Whe're you from?"
+question = "BTW, Where you from?"
 
 print(question)
 address = input()
