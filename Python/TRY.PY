@@ -30,12 +30,28 @@ print("for loop with list")
 num = [1,2,3,4,5]
 
 for i in num:
-    print(i * 2, end=" ")
+    print(i , end=" ")
     
 print("\n")
 
 print("===========", "\n")
 
 print("for loop")
-for j in range(5):
-    print(j + 1)
+               #start   #end    #step
+for j in range(1,       6,      1):
+    print(j , end=" ")
+print("\n")
+
+print("===========", "\n")
+
+greet = "HELLO"
+
+for k in greet:
+    print(k , end=" ")
+print("\n")
+
+print("===========", "\n")
+
+for l in greet(6, 0, -1):
+    print(l , end=" ")
+print("\n")
