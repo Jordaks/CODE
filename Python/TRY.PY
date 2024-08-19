@@ -27,9 +27,9 @@ print("thanks for using our app!!")
 
 print("\n")
 print("for loop with list")
-num = [1,2,3,4,5]
+CARS = ["SUPRA","MUSTANG","NISSAN","BMW","PORSCHE"]
 
-for i in num:
+for i in CARS:
     print(i , end=" ")
     
 print("\n")
@@ -52,6 +52,3 @@ print("\n")
 
 print("===========", "\n")
 
-for l in greet(6, 0, -1):
-    print(l , end=" ")
-print("\n")
