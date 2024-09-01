@@ -21,7 +21,7 @@ print(new_txt)
 
 question = "What is your name?"
 print(question)
-name = input()
+runame = input()
 
 print("Hello! " + name)
 
