@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BASIC_CALCULATOR",
+            "request": "launch",
+            "mainClass": "BASIC_CALCULATOR",
+            "projectName": "CODE_4ce16fe1"
+        },
+        {
+            "type": "java",
+            "name": "calculator",
+            "request": "launch",
+            "mainClass": "calculator",
+            "projectName": "CODE_4ce16fe1"
+        },
+        {
+            "type": "java",
             "name": "helloworld",
             "request": "launch",
             "mainClass": "helloworld",
