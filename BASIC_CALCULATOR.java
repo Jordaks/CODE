@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class BASIC_CALCULATOR {
     public static void main(String[]args){
+        do {
+
         System.out.println("\t\nBASIC CALCULATOR\n");
 
         System.out.println("Enter a first number: ");
@@ -20,25 +22,25 @@ public class BASIC_CALCULATOR {
         Scanner operator = new Scanner(System.in);
         String operators = operator.nextLine();
 
-        do {
+        
         if(operators.equals("+")){
-            System.out.println("Answer is " + (Num1 + Num2));
+            System.out.println("\nAnswer is " + (Num1 + Num2));
         }else if(operators.equals("-")){
-            System.out.println("Answer is " + (Num1 - Num2));
+            System.out.println("\nAnswer is " + (Num1 - Num2));
         }else if(operators.equals("*")){
-            System.out.println("Answer is " + (Num1 * Num2));
+            System.out.println("\nAnswer is " + (Num1 * Num2));
         }else if(operators.equals("/")){
-            System.out.println("Answer is " + (Num1 / Num2));
+            System.out.println("\nAnswer is " + (Num1 / Num2));
         }else{
-            System.out.println("Invalid Input!!");
+            System.out.println("\nInvalid Input!!");
         }
 
         System.out.println("\nDo you want to perform another operation? (y/n): ");
 
         Scanner loop = new Scanner(System.in);
-        String yorn = loop.nextLine();
+        String operation = loop.nextLine();
 
-        } while(yorn == true||yorn == true);
+        } while(true||false);
         
     }
 }
