@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "movie_ticket",
+            "request": "launch",
+            "mainClass": "movie_ticket",
+            "projectName": "CODE_4ce16fe1"
+        },
+        {
+            "type": "java",
             "name": "BASIC_CALCULATOR",
             "request": "launch",
             "mainClass": "BASIC_CALCULATOR",
