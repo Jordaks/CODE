@@ -8,17 +8,17 @@ public class BASIC_CALCULATOR {
         do {
         System.out.println("\t\nBASIC CALCULATOR\n");
 
-        System.out.println("Enter a first number: ");
+        System.out.print("Enter a first number: ");
 
         Scanner num1 = new Scanner(System.in);
         double Num1 = num1.nextInt();
 
-        System.out.println("Enter a second number: ");
+        System.out.print("Enter a second number: ");
 
         Scanner num2 = new Scanner(System.in);
         double Num2 = num2.nextInt();
 
-        System.out.println("Enter Operation ( + , - , * , / , %): ");
+        System.out.print("Enter Operation ( + , - , * , / , %): ");
         
         Scanner operator = new Scanner(System.in);
         String operators = operator.nextLine();
@@ -37,10 +37,10 @@ public class BASIC_CALCULATOR {
                 System.out.println("\nAnswer is " + (Num1 / Num2));
             }
         }else{
-            System.out.println("\nInvalid Input!!");
+            System.out.print("\nInvalid Input!!");
         }
 
-        System.out.println("\nDo you want to perform another operation? (y/n): ");
+        System.out.print("\nDo you want to perform another operation? (y/n): ");
 
         Scanner loop = new Scanner(System.in);
         operation = loop.nextLine();
