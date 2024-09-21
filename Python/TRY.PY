@@ -23,7 +23,7 @@ elif age > 20:
     print("welcome to our app!")
 
 print("thanks for using our app!!")
-"""
+
 
 print("\n")
 print("for loop with list")
@@ -37,7 +37,7 @@ print("\n")
 print("===========", "\n")
 
 print("for loop")
-               #start   #end    #step
+                    #start   #end    #step
 for j in range(1,       6,      1):
     print(j , end=" ")
 print("\n")
@@ -51,4 +51,27 @@ for k in greet:
 print("\n")
 
 print("===========", "\n")
+"""
+#for loop
+for i in range(5):
+    print(i, end=" ")
+    i+=1
+print()
 
+#while loop
+
+j = 0
+
+while j < 5:
+    print(j, end=" ")
+    j+=1
+print()
+
+#do while in python
+password = "DAN"
+while True:
+    passw = str(input("Enter a password: "))
+    if passw == password:
+        break
+    else:
+        print("WRONG PASSWORD!!")
