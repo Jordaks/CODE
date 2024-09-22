@@ -51,7 +51,7 @@ for k in greet:
 print("\n")
 
 print("===========", "\n")
-"""
+
 #for loop
 for i in range(5):
     print(i, end=" ")
@@ -75,3 +75,15 @@ while True:
         break
     else:
         print("WRONG PASSWORD!!")
+        
+"""
+#nested loop
+
+for x in range(3):
+    print(x)
+    for y in range(4):
+        print(y, end=" ")
+    print()
+    print()
+        
+    
