@@ -6,18 +6,22 @@ time = int(input("Enter the time of the show (in 24-hour format, e.g., 14 for 2 
 if age < 12:
     if time <= 17:
         print("Hello " + name + "!" , "The ticket price for you is: $5. Thank you!")
+    elif(time <= 24):
+        print("Hello " + name + "!" , "The ticket price for you is: $7. Thank you!")
     else:
+        print("Invalid Time!!")
         print("Hello " + name + "!" , "The ticket price for you is: $7. Thank you!")
 elif age <= 60:
     if time <= 17:
         print("Hello " + name + "!" , "The ticket price for you is: $10. Thank you!")
-    else:
+    elif(time <= 24):
         print("Hello " + name + "!" , "The ticket price for you is: $12. Thank you!")
-elif age > 60:
+    else:
+        print("Invalid Time!!")
+else:
     if time <= 17:
         print("Hello " + name + "!" , "The ticket price for you is: $6. Thank you!")
-    else:
+    elif(time <= 24):
         print("Hello " + name + "!" , "The ticket price for you is: $8. Thank you!")
-else:
-    print("Invalid Time")
-
+    else:
+        print("Invalid Time!!")
