@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "activity",
+            "request": "launch",
+            "mainClass": "activity",
+            "projectName": "CODE_4ce16fe1"
+        },
+        {
+            "type": "java",
             "name": "movie_ticket",
             "request": "launch",
             "mainClass": "movie_ticket",
