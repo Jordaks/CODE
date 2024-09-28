@@ -13,6 +13,7 @@ public class Calculator {
         return a + b;
     }
     public static void main(String[] args) {
+        
         int a, b;
         Scanner Num = new Scanner(System.in);
 
