@@ -1,5 +1,5 @@
-import java.util.Scanner;
-
+import java.util.Scanner;               //Mark Jordan B. Javier
+                                        //BSIT 2103
 public class Calculator {
         class MathUtils{
             static int multiply(int a, int b){
@@ -13,11 +13,11 @@ public class Calculator {
         return a + b;
     }
     public static void main(String[] args) {
-        
+
         int a, b;
         Scanner Num = new Scanner(System.in);
 
-        System.out.print("Enter a first number: ");
+        System.out.print("\nEnter a first number: ");
         a = Num.nextInt();
         System.out.print("Enter a second number: ");
         b = Num.nextInt();
@@ -30,6 +30,6 @@ public class Calculator {
         System.out.println(a + " + " + b + " = " + sum);
         System.out.println(a + " + " + b + " = " + Double_sum);
         System.out.println(a + " * " + b + " = " + Multi.multiply(a, b));
-        
+
     }
 }
