@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OOP",
+            "request": "launch",
+            "mainClass": "OOP",
+            "projectName": "CODE_4ce16fe1"
+        },
+        {
+            "type": "java",
+            "name": "hellow",
+            "request": "launch",
+            "mainClass": "hellow",
+            "projectName": "CODE_4ce16fe1"
+        },
+        {
+            "type": "java",
             "name": "Calculator",
             "request": "launch",
             "mainClass": "Calculator",
