@@ -16,10 +16,20 @@ while True:
     try:
         num = int(input("Enter a number: "))
         if num > 0:
-            print(num, " is postive integer")
+            print(num, " is positive integer")
             break
         else:
             if num <= 0:
                 print(num, " is not positive integer")
     except ValueError:
         print("Invalid input!!")
+    except ZeroDivisionError:
+        print("You can't divide to 0!!")
+    except IndexError:
+        print("Index error!!")
+    except SystemError:
+        print("System Error!!")
+    else:
+        print("else")
+    finally:
+        print("Finally!!")
