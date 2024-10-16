@@ -6,14 +6,14 @@ public class OOP {
         inheritance inherit = new inheritance();
         polymorph poly = new polymorph();
 
-        inherit.set_verified("Grey");
-        poly.setName("White");
-        System.out.println(poly.getName());
+        inherit.set_verified("Bosnii");
+        poly.setColor("White");
+        System.out.println(poly.getColor());
         System.out.println(inherit.get_verified());
             
         User user = new User();
         user.setName("Mark Jordan");
-        user.setAge(19);
+        user.setAge(12);
         user.setMemebership(User.Membership.Gold);
 
         System.out.println(user.getName());

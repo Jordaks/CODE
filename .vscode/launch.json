@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "prac",
+            "request": "launch",
+            "mainClass": "prac",
+            "projectName": "CODE_4ce16fe1"
+        },
+        {
+            "type": "java",
             "name": "OOP",
             "request": "launch",
             "mainClass": "OOP",
